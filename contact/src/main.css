@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+}
+
+#homePage {
+  display: grid;
+  justify-content: center;
+}
+
+#myPeeps {
+  background: #8eb94f;
+  border-bottom: 1px solid lightgrey;
+  height: 60px;
+  border-left: 1px solid lightgrey;
+}
+
+#peeps {
+  position: relative;
+  top: 8px;
+  left: 20px;
+  color: white;
+}
+
+.contacts {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  width: 450px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.thumbnails {
+  position: relative;
+  left: 8px;
+  border-radius: 50%;
+}
+
+.contactNames {
+  position: relative;
+  top: 11px;
+  left: 18px;
+}
+
+.userInfo {
+  display: grid;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  top: 100px;
+}
+
+.contactInfo {
+  border: 1px solid lightgrey;
+  width: 400px;
+  height: 500px;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+#topHalfInfo {
+  background: lightgreen;
+}
+
+#bottomHalfInfo {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#bottomHalfInfo h5 {
+  border-top: 1px solid lightgrey;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+
+.bigPicture {
+  border-radius: 50%;
+  position: relative;
+  top: 35px;
+  left: 34%;
+}
