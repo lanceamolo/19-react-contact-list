@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 
 function UserInfo(props) {
   const [users, setUsers] = useState(usersJSON)
+
   const { id } = useParams()
 
   const chosenUser = users.find((item) => item.id == id)
@@ -14,7 +15,7 @@ function UserInfo(props) {
       <div className="contactInfo" id={chosenUser.id} key={chosenUser.id}>
         <div id="topHalfInfo">
           <Link to={"/"}>
-            <div id="backArrow">&#8592;</div>
+            <div id="backArrow">&#8249;</div>
           </Link>
           <img className="bigPicture" src={chosenUser.picture.large} />
         </div>
