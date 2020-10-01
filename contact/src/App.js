@@ -20,8 +20,8 @@ import UserInfo from "./UserInfo.js"
 // create h1 saying my peeps: DONE
 // import users thumbnail picture and their names: DONE
 
-// create Custom Component to display contact info
-// import users large picture, name, email, phone number and locations
+// create Custom Component to display contact info: DONE
+// import users large picture, name, email, phone number and locations: DONE
 
 // set up Router with Switch
 // set contact list as <Route exact path="/"></Route>
