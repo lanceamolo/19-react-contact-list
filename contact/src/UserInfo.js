@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 
 function UserInfo(props) {
-  const [users, setUsers] = useState(usersJSON)
+  const [users] = useState(usersJSON)
 
   const { id } = useParams()
 
